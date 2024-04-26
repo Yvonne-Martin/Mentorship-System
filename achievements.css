@@ -1,0 +1,154 @@
+
+body{
+    margin: 0;
+    min-width: 250px;
+    background-color: #bca7d1;
+}
+*{
+    box-sizing: border-box;
+    border-radius: 1%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background:rgb(157, 92, 213);
+    font-size: 25px;
+    transition: 0.9s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    color: #f8f0f0;
+    text-align: justify;
+}
+ul li:nth-child(odd){
+    background: rgb(156, 75, 222);    
+}
+ul li:hover{
+    background: rgb(50, 8, 69);
+}
+.header{
+    background-color: rgb(121, 45, 169);
+    padding: 30px 40px;
+    color: aliceblue;
+    text-align: center;
+}
+.header:after{
+    display: table;
+    clear: both;
+}
+#myInput{
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    width: 65%;
+    padding: 20px;
+    font-size: 25px;
+    position: relative;
+    margin-right: 80%;
+    margin-top: 70px;
+}
+.addBtn {
+    padding: 25px;
+    width: 7%;
+    height: 7vh;
+    background: #d9d9d9;
+    color: #19191b;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 8%;
+  }
+  .addBtn:hover {
+    background-color: #7d58a1;
+  }
+  #body_to-do{
+    margin-left: 400px;
+    margin-right: 200px;
+    margin-top: 200px;
+    width: 1000px; 
+    background: linear-gradient(145deg, #aa72b7, #c99bce);
+    box-shadow: 20px 20px 60px #744d81, -20px -20px 60px #92579c;
+  }
+  h2{
+    color: white;
+  }
+  #heading{
+    border: solid 1px;
+    border-color:  rgb(121, 45, 169);
+    color: white;
+    background-color:rgb(121, 45, 169) ;
+  }
+
+  #myInput{
+   margin: 0;
+   border: none;
+   border-radius: 10px;
+   width: 65%;
+   padding: 20px;
+   font-size: 25px;
+   position: relative;
+   margin-right: 80%;
+   margin-top: 70px;
+}
+#myDIV{
+    height: 40vh;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+nav{
+  margin-top: 0px;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  border: solid 0px;
+  height:10vh;
+  background-color:  rgb(121, 45, 169);
+  color: white;
+  text-align: center;
+  padding-top: 34px;
+}
+@media screen and (max-width:768px) {
+  body{
+    margin: 0px;
+    min-width: 50px;
+
+}
+.header{
+  background-color: rgb(121, 45, 169);
+  padding: 10px 0px;
+  color: aliceblue;
+  text-align: center;
+  width: 600px;
+}
+
+#myInput{
+
+  margin: 0;
+  border: none;
+  border-radius: 10px;
+  width: 75%;
+  font-size: 20px;
+  position: relative;
+  margin-right: 80%;
+  margin-top: 10px;
+}
+#body_to-do{
+  margin-left: 0px;
+  margin-right: 30px;
+  margin-top: 60px;
+  margin-bottom: 800px;
+  width: 0px; 
+  overflow: hidden;
+}
+}

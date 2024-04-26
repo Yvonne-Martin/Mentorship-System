@@ -1,0 +1,147 @@
+
+body{
+    margin: 0;
+    background-color: #bca7d1;
+}
+*{
+    box-sizing: border-box;
+    border-radius: 1%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background:rgb(189, 171, 205);
+    font-size: 25px;
+    transition: 0.9s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    color: #f8f0f0;
+    text-align: justify;
+}
+ul li:nth-child(odd){
+    background: rgb(156, 75, 222);    
+}
+ul li:hover{
+    background: rgb(50, 8, 69);
+}
+ul li.checked{
+    background: #140219;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+.close:hover{
+    background-color: #e425ee;
+    color: aliceblue;
+}
+.header{
+    background-color: rgb(121, 45, 169);
+    padding: 30px 40px;
+    color: aliceblue;
+    text-align: center;
+}
+.header:after{
+    display: table;
+    clear: both;
+}
+#myInput{
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    width: 65%;
+    padding: 20px;
+    font-size: 25px;
+    position: relative;
+    margin-right: 80%;
+    margin-bottom: 10%;
+}
+.addBtn {
+    padding: 25px;
+    width: 7%;
+    height: 7vh;
+    background: #e1cfcf;
+    color: #19191b;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 50%;
+  }
+  .addBtn:hover {
+    background-color: #7d58a1;
+  }
+  #body_to-do{
+    margin-left: 400px;
+    margin-right: 200px;
+    margin-top: 200px;
+    width: 1000px;
+    background: linear-gradient(145deg, #aa72b7, #c99bce);
+    box-shadow: 20px 20px 60px #744d81, -20px -20px 60px #92579c; 
+  }
+h2{
+    color: white;
+  }
+  #heading{
+    border: solid 1px;
+    border-color:  rgb(121, 45, 169);
+    color: white;
+    background-color:rgb(121, 45, 169) ;
+  }
+
+#login_button{
+    background-color:  rgb(243, 240, 245);
+    color: rgb(121, 45, 169) ;
+    margin-bottom: 30px;
+}
+button{
+    border-radius: 20px;  
+    height: 5vh;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+#myDIV{
+    height: 25vh;
+    margin-top:1%;
+}
+#links{
+    margin-left: 500px;
+    margin-right: 350px;
+    display: flex;
+    text-align: center;
+  }
+a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+nav{
+    margin-top: 0px;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    border: solid 0px;
+    height:10vh;
+    background-color:  rgb(121, 45, 169);
+    color: white;
+    text-align: center;
+    padding-top: 34px;
+}
+
+@media screen and (max-width:768px){
+    
+}
+
+
