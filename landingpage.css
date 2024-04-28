@@ -46,67 +46,321 @@
         padding: 20px; 
         margin-left: 10px;
       }
-      @media screen and (max-width:768px) {
-        .content{
-                position: relative;
-                max-width: 400px; 
-                margin: 0 auto; 
-        }
-        .container .content {
-            position: absolute; 
-            bottom: 0; 
-            background: rgb(0, 0, 0); 
-            background: rgba(0, 0, 0, 0.5); 
-            color: #f1f1f1; 
-            width: 80%;
-            padding: 20px; 
-            margin-left: 10px;
-            font-size: 14px;
-            height: 1%;
-          }
-          a{
-            text-decoration: none;
-            color: white;
-            font-size: small;
-        }
-        nav{
-            margin-top: 0px;
-            display: grid;
-            gap: 1%;
-            justify-content: center;
-            border: solid 2px;
-            height:13vh;
-            background-color:  rgb(121, 45, 169);
-            color: white;
-            text-align: center;
-            padding-top: 3px;
-        }
-        #landing-page-introduction{
-          display: grid;
-          background-color: #c5addf;
-          overflow: hidden;
-          padding-top: 0%;
-          }
-          .landing-page-image{
-            height: 57vh; 
-            width: 80vw;
-            background-color: #987bb6;
-            font-size: large;
-        }
-        .container .content {
-          position: absolute; 
-          bottom: 0; 
-          background: rgb(0, 0, 0); 
-          background: rgba(0, 0, 0, 0.5); 
-          color: #f1f1f1; 
-          width: 130%;
-          padding: 20px; 
-          margin-left: 30px;
-          height: 20%;
-        }
-        #Introduction{
-          padding-top: 1%;
-          padding-left: 130px;
-          text-align: center;
-          }
+@media screen and (max-width:280px) {
+  
+#landing-page-introduction{
+  display: grid;
+  background-color: #c5addf;
+  height: 200px;
+  width: 96vw;
+  }
+  #Introduction{
+  padding-top: 1%;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 10px;
+  }
+  .landing-page-image{
+    height: 60vh; 
+    width: 96vw;
+    background-color: #987bb6;
+    font-size: large;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  gap: 0px;
+}
+nav{
+  display: grid;
+  gap: 1px;
+  justify-content: center;
+  border: solid 0px;
+  height:20vh;
+  width: 270px;
+  padding: 0%;
+}
+  .container {
+      position: relative;
+      max-width: 900px; 
+      margin: 0 auto; 
+      height: 10%;
+    }
+    .container .content {
+      position: absolute; 
+      bottom: 0; 
+      background: rgb(0, 0, 0); 
+      background: rgba(0, 0, 0, 0.5); 
+      color: #f1f1f1; 
+      width:90%;
+      padding: 10px; 
+      margin-left: 10px;
+      font-size: 9px;
+    }
+}
+@media screen and (min-width:360px) and (max-width:480px) {
+  #landing-page-introduction{
+    display: grid;
+    background-color: #c5addf;
+    height: 200px;
+    width: 96vw;
+    }
+    #Introduction{
+    padding-top: 1%;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 10px;
+    }
+    .landing-page-image{
+      height: 60vh; 
+      width: 96vw;
+      background-color: #987bb6;
+      font-size: large;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    gap: 0px;
+  }
+  nav{
+    display: grid;
+    gap: 1px;
+    justify-content: center;
+    border: solid 0px;
+    height:20vh;
+    width: 395px;
+    padding: 0%;
+  }
+    .container {
+        position: relative;
+        max-width: 900px; 
+        margin: 0 auto; 
+        height: 10%;
       }
+      .container .content {
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0); 
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1; 
+        width:90%;
+        padding: 10px; 
+        margin-left: 10px;
+        font-size: 9px;
+      }
+}
+@media screen and (min-width:481px) and (max-width:564px) {
+  #landing-page-introduction{
+    display: grid;
+    background-color: #c5addf;
+    height: 250px;
+    width: 98vw;
+    }
+    #Introduction{
+    padding-top: 1%;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 10px;
+    }
+    .landing-page-image{
+      height: 62vh; 
+      width: 98vw;
+      background-color: #987bb6;
+      font-size: large;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    gap: 0px;
+  }
+  nav{
+    display: grid;
+    gap: 1px;
+    justify-content: center;
+    border: solid 0px;
+    height:20vh;
+    width: 98vw;
+    padding: 0%;
+  }
+    .container {
+        position: relative;
+        max-width: 900px; 
+        margin: 0 auto; 
+        height: 7%;
+        font-size: 10px;
+        text-align: center;
+      }
+      .container .content {
+        position: absolute; 
+        bottom: 0%; 
+        background: rgb(0, 0, 0); 
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1; 
+        width:95%;
+        padding: 10px; 
+        margin-left: 10px;
+}
+}
+@media screen and (min-width:565px) and (max-width:764px) {
+  #landing-page-introduction{
+    display: grid;
+    background-color: #c5addf;
+    height: 250px;
+    width: 98vw;
+    }
+    #Introduction{
+    padding-top: 1%;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 10px;
+    }
+    .landing-page-image{
+      height: 62vh; 
+      width: 98vw;
+      background-color: #987bb6;
+      font-size: large;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    gap: 0px;
+  }
+  nav{
+    display: grid;
+    gap: 1px;
+    justify-content: center;
+    border: solid 0px;
+    height:20vh;
+    width: 98vw;
+    padding: 0%;
+  }
+    .container {
+        position: relative;
+        max-width: 900px; 
+        margin: 0 auto; 
+        height: 7%;
+        font-size: 10px;
+        text-align: center;
+      }
+      .container .content {
+        position: absolute; 
+        bottom: 0%; 
+        background: rgb(0, 0, 0); 
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1; 
+        width:95%;
+        padding: 10px; 
+        margin-left: 10px;
+}
+}
+@media screen and (min-width:765px) and (max-width:1024px) {
+  #landing-page-introduction{
+    display: grid;
+    background-color: #c5addf;
+    height: 250px;
+    width: 98vw;
+    }
+    #Introduction{
+    padding-top: 1%;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 10px;
+    }
+    .landing-page-image{
+      height: 62vh; 
+      width: 98vw;
+      background-color: #987bb6;
+      font-size: large;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    gap: 0px;
+  }
+  nav{
+    display: grid;
+    gap: 1px;
+    justify-content: center;
+    border: solid 0px;
+    height:20vh;
+    width: 98vw;
+    padding: 0%;
+  }
+    .container {
+        position: relative;
+        max-width: 900px; 
+        margin: 0 auto; 
+        height: 7%;
+        font-size: 10px;
+        text-align: center;
+      }
+      .container .content {
+        position: absolute; 
+        bottom: 0%; 
+        background: rgb(0, 0, 0); 
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1; 
+        width:95%;
+        padding: 10px; 
+        margin-left: 10px;
+}
+}
+@media screen and (min-width:1025px) and (max-width:1280px) {
+  #landing-page-introduction{
+    display: grid;
+    background-color: #c5addf;
+    height: 250px;
+    width: 98vw;
+    }
+    #Introduction{
+    padding-top: 1%;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 10px;
+    }
+    .landing-page-image{
+      height: 62vh; 
+      width: 68vw;
+      font-size: large;
+      margin-top: 90px;
+      margin-right: 0px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    gap: 0px;
+  }
+  nav{
+    display: grid;
+    gap: 1px;
+    justify-content: center;
+    border: solid 0px;
+    height:20vh;
+    width: 98vw;
+    padding: 0%;
+  }
+    .container {
+        position: relative;
+        max-width: 900px; 
+        margin: 0 auto; 
+        height: 7%;
+        font-size: 10px;
+        text-align: center;
+      }
+      .container .content {
+        position: absolute; 
+        bottom: 0%; 
+        background: rgb(0, 0, 0); 
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1; 
+        width:95%;
+        padding: 10px; 
+        margin-left: 10px;
+}
+}

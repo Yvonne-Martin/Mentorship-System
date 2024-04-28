@@ -3,15 +3,16 @@
     border: solid 0px;
     border-radius: 10%;
     font-size: 20px;
-    height: 70vh;
+    height: 65vh;
     padding: 20px;
     width: 700px;
     margin: 0% 30% 0% 30%;
     background: linear-gradient(145deg, #aa72b7, #c99bce);
-    box-shadow: 20px 20px 60px #744d81, -20px -20px 60px #92579c;
+    box-shadow: 20px 20px 60px #88e2d3, -20px -20px 60px #88e2d3;
 }
 #details{
     display: grid;
+    margin-left: 100px;
 }
 #mentors-image{
     border-radius: 50%;
@@ -41,24 +42,75 @@ nav{
     text-align: center;
     padding-top: 34px;
 }
-@media  screen and (max-width:768px){
+@media screen and (max-width:280px){
     #profile{
         display: grid;
-        border: solid 1px;
-        font-size: 20px;
-        height: 70vh;
-        padding: 20px;
-        width: 440px;
-        margin: 0% 30% 0% 30%;
+        border: solid 0px;
+        border-radius: 10%;
+        font-size: 10px;
+        height: 45vh;
+        width: 180px;
+        gap: 0px;
+        margin: 0% 0% 0% 2%;
+        background: linear-gradient(140deg, #aa72b7, #c99bce);
+        box-shadow: 10px 10px 10px #88e2d3, -10px -10px 10px #88e2d3;
     }
     #details{
         display: grid;
-        font-size: 20px;
+        margin-left: 10px;
+        gap: 2px;
     }
     #mentors-image{
         border-radius: 50%;
-        height: 15vh;
-        margin-right: 100px;
+        height: 10vh;
+        margin-left: 25%;
+    }
+    #heading{
+        text-align: center;
+        font-size: 10px;
+    }
+    body{
+        background-color: rgb(201, 178, 223);
+       height: 20%;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        gap: 0px;
+    }
+    nav{
+        display: grid;
+        gap: 1px;
+        justify-content: center;
+        border: solid 0px;
+        height:20vh;
+        width: 278px;
+        padding: 0%;
+    }
+}
+@media screen and (min-width:360px) and (max-width:480px) {
+    #profile{
+        display: grid;
+        border: solid 0px;
+        border-radius: 10%;
+        font-size: 10px;
+        height: 55vh;
+        width: 300px;
+        gap: 0px;
+        margin-left: 20px;
+        background: linear-gradient(140deg, #aa72b7, #c99bce);
+        box-shadow: 10px 10px 10px #88e2d3, -10px -10px 10px #88e2d3;
+    }
+    #details{
+        display: grid;
+        margin-left: 10px;
+        gap: 2px;
+    }
+    #mentors-image{
+        border-radius: 50%;
+        height: 10vh;
+        margin-left: 25%;
     }
     #heading{
         text-align: center;
@@ -66,5 +118,210 @@ nav{
     }
     body{
         background-color: rgb(201, 178, 223);
+       height: 20%;
     }
-} 
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        gap: 0px;
+    }
+    nav{
+        display: grid;
+        gap: 1px;
+        justify-content: center;
+        border: solid 0px;
+        height:18vh;
+        width: 351px;
+        padding: 0%;
+    }
+
+}
+@media screen and  (min-width:481px) and (max-width:564px){
+    #profile{
+        display: grid;
+        border: solid 0px;
+        border-radius: 10%;
+        font-size: 15px;
+        height: 55vh;
+        width: 470px;
+        gap: 0px;
+        margin: 0% 0% 0% 2%;
+        background: linear-gradient(140deg, #aa72b7, #c99bce);
+        box-shadow: 10px 10px 10px #88e2d3, -10px -10px 10px #88e2d3;
+    }
+    #details{
+        display: grid;
+        margin-left: 10px;
+        gap: 2px;
+    }
+    #mentors-image{
+        border-radius: 50%;
+        height: 10vh;
+        margin-left: 25%;
+    }
+    #heading{
+        text-align: center;
+        font-size: 15px;
+    }
+    body{
+        background-color: rgb(201, 178, 223);
+       height: 20%;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        gap: 0px;
+    }
+    nav{
+        display: grid;
+        gap: 1px;
+        justify-content: center;
+        border: solid 0px;
+        height:20vh;
+        width: 530px;
+        padding: 0%;
+    }
+
+}
+@media screen and  (min-width:565px) and (max-width:764px){
+    #profile{
+        display: grid;
+        border: solid 0px;
+        border-radius: 10%;
+        font-size: 15px;
+        height: 55vh;
+        width: 470px;
+        gap: 0px;
+        margin: 0% 0% 0% 2%;
+        background: linear-gradient(140deg, #aa72b7, #c99bce);
+        box-shadow: 10px 10px 10px #88e2d3, -10px -10px 10px #88e2d3;
+    }
+    #details{
+        display: grid;
+        margin-left: 10px;
+        gap: 2px;
+    }
+    #mentors-image{
+        border-radius: 50%;
+        height: 10vh;
+        margin-left: 25%;
+    }
+    #heading{
+        text-align: center;
+        font-size: 15px;
+    }
+    body{
+        background-color: rgb(201, 178, 223);
+       height: 20%;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        gap: 0px;
+    }
+    nav{
+        display: grid;
+        gap: 1px;
+        justify-content: center;
+        border: solid 0px;
+        height:20vh;
+        width: 530px;
+        padding: 0%;
+    }
+}
+@media screen and  (min-width:765px) and (max-width:1024px){
+    #profile{
+        display: grid;
+        border: solid 0px;
+        border-radius: 10%;
+        font-size: 14px;
+        height: 70vh;
+        width: 570px;
+        margin-left: 15%;
+        gap: 7px;
+        background: linear-gradient(140deg, #aa72b7, #c99bce);
+        box-shadow: 10px 10px 10px #88e2d3, -10px -10px 10px #88e2d3;
+    }
+    #details{
+        display: grid;
+        margin-left: 80px;
+        gap: 0px;
+    }
+    #mentors-image{
+        border-radius: 50%;
+        height: 20vh;
+        margin-left: 35%;
+    }
+    #heading{
+        text-align: center;
+        font-size: 15px;
+    }
+    body{
+        background-color: rgb(201, 178, 223);
+       height: 20%;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        gap: 1px;
+    }
+    nav{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        border: solid 0px;
+        height:7vh;
+
+    }
+}
+@media screen and  (min-width:1025px) and (max-width:1280px){
+    #profile{
+        display: grid;
+        border: solid 0px;
+        border-radius: 10%;
+        font-size: 15px;
+        height: 65vh;
+        width: 670px;
+        margin-left: 24%;
+        
+        background: linear-gradient(140deg, #aa72b7, #c99bce);
+        box-shadow: 10px 10px 10px #88e2d3, -10px -10px 10px #88e2d3;
+    }
+    #details{
+        display: grid;
+        margin-left: 80px;
+        gap: 0px;
+    }
+    #mentors-image{
+        border-radius: 50%;
+        height: 20vh;
+        margin-left: 35%;
+    }
+    #heading{
+        text-align: center;
+        font-size: 15px;
+    }
+    body{
+        background-color: rgb(201, 178, 223);
+       height: 20%;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        gap: 0px;
+    }
+    nav{
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        border: solid 0px;
+        height:10vh;
+
+    }
+}
+    

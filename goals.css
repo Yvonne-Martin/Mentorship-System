@@ -139,44 +139,865 @@ nav{
   background: linear-gradient(145deg, #aa72b7, #c99bce);
   box-shadow: 20px 20px 60px #744d81, -20px -20px 60px #92579c;
 }
-
-@media screen and (max-width:768px) {
-  #myGoals{
-    display: grid;
-    gap: 10%;
-    height: 40%;
-    }
-    #myDIV{
-      height: 10vh;
-      width: 200px;
-      font-size: 20px;
+@media screen and (max-width:280px){
+    
+  body{
+      margin: 0;
+      background-color: #bca7d1;
+  }
+  *{
+      box-sizing: border-box;
+      border-radius: 1%;
+  }
+  ul{
+      margin: 0;
+      padding: 0;
+  }
+  ul li{
+      cursor: pointer;
+      position: relative;
+      padding: 12px 8px 12px 40px;
+      list-style-type: none;
+      background:rgb(189, 171, 205);
+      font-size: 15px;
+      transition: 0.9s;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      color: #f8f0f0;
+      text-align: justify;
+  }
+  ul li:nth-child(odd){
+      background: rgb(156, 75, 222); 
+      font-size: 10px;   
+  }
+  ul li:hover{
+      background: rgb(50, 8, 69);
+  }
+  ul li.checked{
+      background: #140219;
+      color: #fff;
+      text-decoration: line-through;
+  }
+  
+  .close{
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 12px 16px 12px 16px;
+  }
+  .close:hover{
+      background-color: #e425ee;
+      color: aliceblue;
+  }
+  .header{
+      background-color: rgb(121, 45, 169);
+      padding: 0px 4px;
+      color: aliceblue;
+      text-align: center;
+      font-size: 95%;
+  }
+  .header:after{
+      display: table;
+      clear: both;
   }
   #myInput{
+      margin: 0;
+      border: none;
+      border-radius: 10px;
+      width: 125%;
+      padding: 2px;
+      font-size: 15px;
+      position: relative;
+      margin-right: 80%;
+      margin-bottom: 1%;
+  
+  }
+  .addBtn {
+      padding: 5px;
+      width: 30%;
+      height: 5vh;
+      background: #e1cfcf;
+      color: #19191b;
+      font-size: 10px;
+      cursor: pointer;
+      border-radius: 10px;
+      margin-left: 10%;
+      margin-bottom: 50%;
+      font-size:15px;
+    }
+    .addBtn:hover {
+      background-color: #7d58a1;
+    }
+    #body_to-do{
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 40px;
+      width: 250px;
+      font-size: 10px;
+      background: linear-gradient(145deg, #aa72b7, #c99bce);
+      box-shadow: 10px 10px 20px #744d81, -10px -10px 30px #92579c; 
+    }
+  h2{
+      color: white;
+    }
+    #heading{
+      border: solid 1px;
+      border-color:  rgb(121, 45, 169);
+      color: white;
+      background-color:rgb(121, 45, 169) ;
+    }
+  
+  #login_button{
+      background-color:  rgb(243, 240, 245);
+      color: rgb(121, 45, 169) ;
+      margin-bottom: 30px;
+  }
+  button{
+      border-radius: 20px;  
+      height: 5vh;
+      width: 200px;
+      border: none;
+      cursor: pointer;
+  }
+  #myDIV{
+      height: 15vh;
+      margin-top:1%;
+      width: 200px;
+  }
+  #links{
+      margin-left: 500px;
+      margin-right: 350px;
+      display: flex;
+      text-align: center;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+      font-size: 10px;
+      gap: 0px;
+  }
+  nav{
+      display: grid;
+      gap: 1px;
+      justify-content: center;
+      border: solid 0px;
+      height:20vh;
+      width: 278px;
+      padding: 0%;
+  }
+  }
+  @media screen and (min-width:360px) and (max-width:480px){
+    body{
+      margin: 0;
+      background-color: #bca7d1;
+  }
+  *{
+      box-sizing: border-box;
+      border-radius: 1%;
+  }
+  ul{
+      margin: 0;
+      padding: 0;
+  }
+  ul li{
+      cursor: pointer;
+      position: relative;
+      padding: 12px 8px 12px 40px;
+      list-style-type: none;
+      background:rgb(189, 171, 205);
+      font-size: 15px;
+      transition: 0.9s;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      color: #f8f0f0;
+      text-align: justify;
+  }
+  ul li:nth-child(odd){
+      background: rgb(156, 75, 222); 
+      font-size: 10px;   
+  }
+  ul li:hover{
+      background: rgb(50, 8, 69);
+  }
+  ul li.checked{
+      background: #140219;
+      color: #fff;
+      text-decoration: line-through;
+  }
+  
+  .close{
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 12px 16px 12px 16px;
+  }
+  .close:hover{
+      background-color: #e425ee;
+      color: aliceblue;
+  }
+  .header{
+      background-color: rgb(121, 45, 169);
+      padding: 0px 4px;
+      color: aliceblue;
+      text-align: center;
+      font-size: 95%;
+  }
+  .header:after{
+      display: table;
+      clear: both;
+  }
+  #myInput{
+      margin: 0;
+      border: none;
+      border-radius: 10px;
+      width: 125%;
+      padding: 2px;
+      font-size: 15px;
+      position: relative;
+      margin-right: 80%;
+      margin-bottom: 1%;
+  
+  }
+  .addBtn {
+      padding: 5px;
+      width: 20%;
+      height: 3vh;
+      background: #e1cfcf;
+      color: #19191b;
+      font-size: 10px;
+      cursor: pointer;
+      border-radius: 10px;
+      margin-left: 10%;
+      margin-bottom: 50%;
+      font-size:15px;
+    }
+    .addBtn:hover {
+      background-color: #7d58a1;
+    }
+    #body_to-do{
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 40px;
+      width: 250px;
+      font-size: 10px;
+      background: linear-gradient(145deg, #aa72b7, #c99bce);
+      box-shadow: 10px 10px 20px #744d81, -10px -10px 30px #92579c; 
+    }
+  h2{
+      color: white;
+    }
+    #heading{
+      border: solid 1px;
+      border-color:  rgb(121, 45, 169);
+      color: white;
+      background-color:rgb(121, 45, 169) ;
+    }
+  
+  #login_button{
+      background-color:  rgb(243, 240, 245);
+      color: rgb(121, 45, 169) ;
+      margin-bottom: 30px;
+  }
+  button{
+      border-radius: 20px;  
+      height: 5vh;
+      width: 200px;
+      border: none;
+      cursor: pointer;
+  }
+  #myDIV{
+      height: 15vh;
+      margin-top:1%;
+      width: 200px;
+  }
+  #links{
+      margin-left: 500px;
+      margin-right: 350px;
+      display: flex;
+      text-align: center;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+      font-size: 10px;
+      gap: 0px;
+  }
+  nav{
+      display: grid;
+      gap: 1px;
+      justify-content: center;
+      border: solid 0px;
+      height:20vh;
+      width: 278px;
+      padding: 0%;
+  }
+  }
+  @media screen and  (min-width:481px) and (max-width:564px){
+    body{
+      margin: 0;
+      background-color: #bca7d1;
+  }
+  *{
+      box-sizing: border-box;
+      border-radius: 1%;
+  }
+  ul{
+      margin: 0;
+      padding: 0;
+  }
+  ul li{
+      cursor: pointer;
+      position: relative;
+      padding: 12px 8px 12px 40px;
+      list-style-type: none;
+      background:rgb(189, 171, 205);
+      font-size: 15px;
+      transition: 0.9s;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      color: #f8f0f0;
+      text-align: justify;
+  }
+  ul li:nth-child(odd){
+      background: rgb(156, 75, 222); 
+      font-size: 10px;   
+  }
+  ul li:hover{
+      background: rgb(50, 8, 69);
+  }
+  ul li.checked{
+      background: #140219;
+      color: #fff;
+      text-decoration: line-through;
+  }
+  
+  .close{
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 12px 16px 12px 16px;
+  }
+  .close:hover{
+      background-color: #e425ee;
+      color: aliceblue;
+  }
+  .header{
+      background-color: rgb(121, 45, 169);
+      padding: 0px 4px;
+      color: aliceblue;
+      text-align: center;
+      font-size: 95%;
+  }
+  .header:after{
+      display: table;
+      clear: both;
+  }
+  #myInput{
+      margin: 0;
+      border: none;
+      border-radius: 10px;
+      width: 125%;
+      padding: 2px;
+      font-size: 15px;
+      position: relative;
+      margin-right: 80%;
+      margin-bottom: 1%;
+  
+  }
+  .addBtn {
+      padding: 5px;
+      width: 20%;
+      height: 3vh;
+      background: #e1cfcf;
+      color: #19191b;
+      font-size: 10px;
+      cursor: pointer;
+      border-radius: 10px;
+      margin-left: 10%;
+      margin-bottom: 50%;
+      font-size:15px;
+    }
+    .addBtn:hover {
+      background-color: #7d58a1;
+    }
+    #body_to-do{
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 40px;
+      width: 250px;
+      font-size: 10px;
+      background: linear-gradient(145deg, #aa72b7, #c99bce);
+      box-shadow: 10px 10px 20px #744d81, -10px -10px 30px #92579c; 
+    }
+  h2{
+      color: white;
+    }
+    #heading{
+      border: solid 1px;
+      border-color:  rgb(121, 45, 169);
+      color: white;
+      background-color:rgb(121, 45, 169) ;
+    }
+  
+  #login_button{
+      background-color:  rgb(243, 240, 245);
+      color: rgb(121, 45, 169) ;
+      margin-bottom: 30px;
+  }
+  button{
+      border-radius: 20px;  
+      height: 5vh;
+      width: 200px;
+      border: none;
+      cursor: pointer;
+  }
+  #myDIV{
+      height: 15vh;
+      margin-top:1%;
+      width: 200px;
+  }
+  #links{
+      margin-left: 500px;
+      margin-right: 350px;
+      display: flex;
+      text-align: center;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+      font-size: 10px;
+      gap: 0px;
+  }
+  nav{
+      display: grid;
+      gap: 1px;
+      justify-content: center;
+      border: solid 0px;
+      height:20vh;
+      width: 278px;
+      padding: 0%;
+  }
+  }
 
+  @media screen and  (min-width:565px) and (max-width:764px){
+
+
+  body{
+    margin: 0;
+    background-color: #bca7d1;
+}
+*{
+    box-sizing: border-box;
+    border-radius: 1%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background:rgb(189, 171, 205);
+    font-size: 15px;
+    transition: 0.9s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    color: #f8f0f0;
+    text-align: justify;
+}
+ul li:nth-child(odd){
+    background: rgb(156, 75, 222); 
+    font-size: 10px;   
+}
+ul li:hover{
+    background: rgb(50, 8, 69);
+}
+ul li.checked{
+    background: #140219;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+.close:hover{
+    background-color: #e425ee;
+    color: aliceblue;
+}
+.header{
+    background-color: rgb(121, 45, 169);
+    padding: 0px 4px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 95%;
+}
+.header:after{
+    display: table;
+    clear: both;
+}
+#myInput{
     margin: 0;
     border: none;
     border-radius: 10px;
-    width: 95%;
-    padding: 20px;
-    font-size: 10px;
+    width: 125%;
+    padding: 2px;
+    font-size: 15px;
     position: relative;
-    margin-right: 30%;
-    margin-top: 20px;
- }
- ul li{
+    margin-right: 80%;
+    margin-bottom: 1%;
 
-  padding:12px 8px 12px 40px;
-  list-style-type: none;
-  background:rgb(157, 92, 213);
 }
-body{
-  margin: 0;
-  background-color: #bca7d1;
-  margin: 0px;
-  margin-top: auto;
-  width: 200%;
+.addBtn {
+    padding: 5px;
+    width: 20%;
+    height: 3vh;
+    background: #e1cfcf;
+    color: #19191b;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-bottom: 50%;
+    font-size:15px;
+  }
+  .addBtn:hover {
+    background-color: #7d58a1;
+  }
+  #body_to-do{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    width: 250px;
+    font-size: 10px;
+    background: linear-gradient(145deg, #aa72b7, #c99bce);
+    box-shadow: 10px 10px 20px #744d81, -10px -10px 30px #92579c; 
+  }
+h2{
+    color: white;
+  }
+  #heading{
+    border: solid 1px;
+    border-color:  rgb(121, 45, 169);
+    color: white;
+    background-color:rgb(121, 45, 169) ;
+  }
+
+#login_button{
+    background-color:  rgb(243, 240, 245);
+    color: rgb(121, 45, 169) ;
+    margin-bottom: 30px;
+}
+button{
+    border-radius: 20px;  
+    height: 5vh;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+#myDIV{
+    height: 15vh;
+    margin-top:1%;
+    width: 200px;
+}
+#links{
+    margin-left: 500px;
+    margin-right: 350px;
+    display: flex;
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    gap: 0px;
+}
+nav{
+    display: grid;
+    gap: 1px;
+    justify-content: center;
+    border: solid 0px;
+    height:20vh;
+    width: 278px;
+    padding: 0%;
+}
+  }
+  @media screen and  (min-width:765px) and (max-width:1024px){
+    body{
+      margin: 0;
+      background-color: #bca7d1;
+  }
+  *{
+      box-sizing: border-box;
+      border-radius: 1%;
+  }
+  ul{
+      margin: 0;
+      padding: 0;
+  }
+  ul li{
+      cursor: pointer;
+      position: relative;
+      padding: 12px 8px 12px 40px;
+      list-style-type: none;
+      background:rgb(189, 171, 205);
+      font-size: 15px;
+      transition: 0.9s;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      color: #f8f0f0;
+      text-align: justify;
+  }
+  ul li:nth-child(odd){
+      background: rgb(156, 75, 222); 
+      font-size: 15px;   
+  }
+  ul li:hover{
+      background: rgb(50, 8, 69);
+  }
+  ul li.checked{
+      background: #140219;
+      color: #fff;
+      text-decoration: line-through;
+  }
   
+  .close{
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 12px 16px 12px 16px;
+  }
+  .close:hover{
+      background-color: #e425ee;
+      color: aliceblue;
+  }
+  .header{
+      background-color: rgb(121, 45, 169);
+      padding: 0px 4px;
+      color: aliceblue;
+      text-align: center;
+      font-size: 95%;
+  }
+  .header:after{
+      display: table;
+      clear: both;
+  }
+  #myInput{
+      margin: 0;
+      border: none;
+      border-radius: 10px;
+      width: 320%;
+      height: 130%;
+      padding: 2px;
+      font-size: 15px;
+      position: relative;
+      margin-right: 80%;
+      margin-bottom: 1%;
+  }
+  .addBtn {
+      padding: 5px;
+      width: 10%;
+      height: 6vh;
+      background: #e1cfcf;
+      color: #19191b;
+      font-size: 10px;
+      cursor: pointer;
+      border-radius: 10px;
+      margin-left: 50%;
+      margin-bottom: 50%;
+      font-size:15px;
+    }
+    .addBtn:hover {
+      background-color: #7d58a1;
+    }
+    #body_to-do{
+      margin-left: 60px;
+      margin-right: 10px;
+      margin-top: 0px;
+      width: 800px;
+      font-size: 10px;
+      background: linear-gradient(145deg, #aa72b7, #c99bce);
+      box-shadow: 10px 10px 20px #744d81, -10px -10px 30px #92579c; 
+    }
+  h2{
+      color: white;
+    }
+    #heading{
+      border: solid 1px;
+      border-color:  rgb(121, 45, 169);
+      color: white;
+      background-color:rgb(121, 45, 169) ;
+    }
+  
+  #login_button{
+      background-color:  rgb(243, 240, 245);
+      color: rgb(121, 45, 169) ;
+      margin-bottom: 30px;
+  }
+  button{
+      border-radius: 20px;  
+      height: 5vh;
+      width: 200px;
+      border: none;
+      cursor: pointer;
+  }
+  #myDIV{
+      height: 15vh;
+      margin-top:1%;
+      width: 200px;
+  }
+  #links{
+      margin-left: 500px;
+      margin-right: 350px;
+      display: flex;
+      text-align: center;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+      gap: 0px;
+      padding-top: 9px;
+  }
+  nav{
+      display: grid;
+      gap: 0px;
+      justify-content: center;
+      border: solid 0px;
+      height:30vh;
+      width: 918px;
+      padding-top: 0%; 
+  }
 }
+@media screen and  (min-width:1025px) and (max-width:1280px){
+  body{
+    margin: 0;
+    min-width: 250px;
+    background-color: #bca7d1;
+}
+*{
+    box-sizing: border-box;
+    border-radius: 1%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background:rgb(157, 92, 213);
+    font-size: 25px;
+    transition: 0.9s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    color: #f8f0f0;
+    text-align: justify;
+}
+ul li:nth-child(odd){
+    background: rgb(156, 75, 222);    
+}
+ul li:hover{
+    background: rgb(50, 8, 69);
+}
+.header{
+    background-color: rgb(121, 45, 169);
+    padding: 30px 40px;
+    color: aliceblue;
+    text-align: center;
+}
+.header:after{
+    display: table;
+    clear: both;
+}
+#myInput{
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    width: 65%;
+    padding: 20px;
+    font-size: 25px;
+    position: relative;
+    margin-right: 80%;
+    margin-top: 70px;
+}
+.addBtn {
+    padding: 25px;
+    width: 7%;
+    height: 7vh;
+    background: #d9d9d9;
+    color: #19191b;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 8%;
+  }
+  .addBtn:hover {
+    background-color: #7d58a1;
+  }
+  #body_to-do{
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 50px;
+    width: 1000px; 
+    background: linear-gradient(145deg, #aa72b7, #c99bce);
+    box-shadow: 20px 20px 60px #744d81, -20px -20px 60px #92579c;
+  }
+  h2{
+    color: white;
+  }
+  #heading{
+    border: solid 1px;
+    border-color:  rgb(121, 45, 169);
+    color: white;
+    background-color:rgb(121, 45, 169) ;
+  }
 
+  #myInput{
+   margin: 0;
+   border: none;
+   border-radius: 10px;
+   width: 65%;
+   padding: 20px;
+   font-size: 25px;
+   position: relative;
+   margin-right: 80%;
+   margin-top: 70px;
+}
+#myDIV{
+    height: 40vh;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  gap: 0px;
+  padding-top: 0px;
+}
+nav{
+  display: grid;
+  gap: 0px;
+  justify-content: center;
+  border: solid 0px;
+  height:30vh;
+  width: 1270px;
+
+
+}
 }
 
